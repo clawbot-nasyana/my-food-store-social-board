@@ -1,0 +1,23 @@
+{
+  "clientSlug": "my-food-store",
+  "clientName": "My Food Store",
+  "domain": "my-food-store.com",
+  "logo": "/assets/logo.svg",
+  "colors": {
+    "primary": "#E53935",
+    "secondary": "#1E88E5",
+    "accent": "#FFD54F"
+  },
+  "fonts": {
+    "heading": "Verdana",
+    "body": "Verdana"
+  },
+  "content": {
+    "numPosts": 10,
+    "ratios": ["1:1", "4:5"]
+  },
+  "positioning": {
+    "oneLiner": "Fresh flavors, delivered with care"
+  },
+  "createdAt": "2026-03-22T21:29:00Z"
+}

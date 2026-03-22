@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Food Store — Social Board</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script defer src="./render.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-wrap">
+      <img src="./assets/logo.svg" alt="My Food Store logo" class="brand-logo" />
+      <div>
+        <p class="eyebrow">Social Content Board</p>
+        <h1>My Food Store</h1>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <div class="ratio-toggle" role="group" aria-label="Aspect ratio toggle">
+        <button class="ratio-btn active" data-ratio="1:1">1:1</button>
+        <button class="ratio-btn" data-ratio="4:5">4:5</button>
+      </div>
+      <button id="downloadAllBtn" class="action-btn primary">Download All</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section class="intro-card">
+      <div>
+        <p class="section-label">Brand snapshot</p>
+        <h2>Fresh flavors, delivered with care</h2>
+        <p class="intro-copy">10 ready-to-preview social posts across three creative directions: Bold &amp; Minimal, Corporate/Professional, and Playful/Creative.</p>
+      </div>
+      <div class="meta-grid">
+        <div><span>Primary</span><strong>#E53935</strong></div>
+        <div><span>Secondary</span><strong>#1E88E5</strong></div>
+        <div><span>Accent</span><strong>#FFD54F</strong></div>
+        <div><span>Font</span><strong>Verdana</strong></div>
+      </div>
+    </section>
+
+    <section id="boardGrid" class="board-grid" aria-live="polite"></section>
+  </main>
+
+  <footer class="app-footer">
+    <p>© <span id="year"></span> My Food Store — Social concept board</p>
+  </footer>
+</body>
+</html>

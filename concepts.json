@@ -1,0 +1,128 @@
+{
+  "varieties": [
+    {
+      "name": "Bold & Minimal",
+      "description": "High contrast visuals, large Verdana typography, and minimal use of elements, emphasizing key stats or testimonials for instant impact.",
+      "posts": [
+        {
+          "id": 1,
+          "layout": "STAT_BIG_NUMBER",
+          "content": {
+            "stat": "10,000+",
+            "label": "Meals Delivered",
+            "subtext": "Fueling your day, every day."
+          },
+          "ratio": "1:1"
+        },
+        {
+          "id": 2,
+          "layout": "STAT_BIG_NUMBER",
+          "content": {
+            "stat": "99%",
+            "label": "Customer Satisfaction",
+            "subtext": "Thank you for trusting My Food Store!"
+          },
+          "ratio": "4:5"
+        },
+        {
+          "id": 3,
+          "layout": "QUOTE_TESTIMONIAL",
+          "content": {
+            "quote": "The freshest ingredients, always!",
+            "author": "Aisha T.",
+            "title": "Longtime Customer"
+          },
+          "ratio": "1:1"
+        },
+        {
+          "id": 4,
+          "layout": "STAT_BIG_NUMBER",
+          "content": {
+            "stat": "24/7",
+            "label": "Online Ordering",
+            "subtext": "Order anytime, from anywhere."
+          },
+          "ratio": "4:5"
+        }
+      ]
+    },
+    {
+      "name": "Corporate/Professional",
+      "description": "Trustworthy, data-driven concepts using charts, figures, and crisp typography for a professional food service presentation.",
+      "posts": [
+        {
+          "id": 5,
+          "layout": "STAT_BIG_NUMBER",
+          "content": {
+            "stat": "15 Years",
+            "label": "Industry Experience",
+            "subtext": "Delivering trust and quality since day one."
+          },
+          "ratio": "4:5"
+        },
+        {
+          "id": 6,
+          "layout": "SERVICE_3_BULLETS",
+          "content": {
+            "title": "Why Choose Us?",
+            "bullets": [
+              "Consistent Quality",
+              "Reliable Delivery",
+              "Certified Food Safety"
+            ]
+          },
+          "ratio": "1:1"
+        },
+        {
+          "id": 7,
+          "layout": "QUOTE_TESTIMONIAL",
+          "content": {
+            "quote": "Reliable partner for corporate catering.",
+            "author": "HR Manager, TechFirm",
+            "title": "Corporate Client"
+          },
+          "ratio": "4:5"
+        }
+      ]
+    },
+    {
+      "name": "Playful/Creative",
+      "description": "Fun, energetic posts with a friendly, approachable tone featuring colorful visuals and playful copy.",
+      "posts": [
+        {
+          "id": 8,
+          "layout": "SERVICE_3_BULLETS",
+          "content": {
+            "title": "Taste the Joy!",
+            "bullets": [
+              "Wholesome Snacks",
+              "Surprise Combos",
+              "Weekly Specials"
+            ]
+          },
+          "ratio": "4:5"
+        },
+        {
+          "id": 9,
+          "layout": "QUOTE_TESTIMONIAL",
+          "content": {
+            "quote": "My kids love your snack boxes!",
+            "author": "Samuel L.",
+            "title": "Parent"
+          },
+          "ratio": "1:1"
+        },
+        {
+          "id": 10,
+          "layout": "STAT_BIG_NUMBER",
+          "content": {
+            "stat": "50+",
+            "label": "Unique Dishes",
+            "subtext": "Explore something yummy every week!"
+          },
+          "ratio": "4:5"
+        }
+      ]
+    }
+  ]
+}
